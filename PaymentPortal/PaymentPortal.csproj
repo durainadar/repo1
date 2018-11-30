@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Api\Administrators\" />
+    <Folder Include="Api\Customers\" />
+    <Folder Include="Api\Schedules\" />
+    <Folder Include="Api\Payments\" />
+    <Folder Include="Areas\Administrators\Controllers\" />
+    <Folder Include="Areas\Schedules\" />
+  </ItemGroup>
+
+</Project>
